@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm-practice"
+version = "0.1.0"
+description = ""
+authors = ["amazingguni <amazingguni@gmail.com>"]
+readme = "README.md"
+packages = [{include = "llm_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^4.0.11"
+langchain = "^0.1.1"
+openai = "^1.9.0"
+langchain-openai = "^0.0.3"
+arxiv = "^2.1.0"
+faiss-cpu = "^1.7.4"
+tiktoken = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
